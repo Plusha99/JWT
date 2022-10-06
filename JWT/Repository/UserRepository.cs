@@ -6,8 +6,8 @@ namespace JWT.Repository
     {
         public static List<User> Users = new()
         {
-            new() { Username = "luke_admin", EmailAddress = "luke.admin@email.com", Password = "MyPass_w0rd", GivenName = "Luke", Surname = "Rogers", Role = "Administrator" },
-            new() { Username = "lydia_standard", EmailAddress = "lydia.standard@email.com", Password = "MyPass_w0rd", GivenName = "Elyse", Surname = "Burton", Role = "Standard" },
+            new() { Username = "ilia_admin", EmailAddress = "ilia.admin@email.com", Password = "MyPass_w0rd", GivenName = "Ilia", Surname = "Martinov", Role = "Administrator" },
+            new() { Username = "anna_standard", EmailAddress = "anna.standard@email.com", Password = "MyPass_w0rd", GivenName = "Anna", Surname = "Eskina", Role = "Standard" },
         };
     }
 }
